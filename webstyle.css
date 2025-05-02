@@ -1,0 +1,203 @@
+body#home {
+  background-image: url("mount-fitz-roy.png");
+  /* Image from https://www.wildernesstravel.com/latin-america/patagonia/ */
+  background-attachment: fixed;
+  background-position: bottom;
+  background-size: cover;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: "Lora", "Times New Roman", Times, serif;
+}
+body#explore {
+  background-image: url("patagonia-mountains.jpg");
+  /* Image from https://sayhueque.com/trip/best-of-patagonia-9-days/ */
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  font-family: "Lora", "Times New Roman", Times, serif;
+}
+body#activities {
+  background-image: url("activities-background.avif");
+  /* Image from https://www.shallwegohometravel.com/one-month-chile-and-argentina-itinerary/ */
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  font-family: "Lora", "Times New Roman", Times, serif;
+}
+button#home {
+  height: 60px;
+  width: 170px;
+  background-color: black;
+  font-size: 25px;
+  border: 3px solid black;
+  border-radius: 2%;
+  color: white;
+  font-family: "Lora", "Times New Roman", Times, serif;
+}
+button:hover#home {
+  border-color: white;
+  color: white;
+  transition: ease-in-out;
+  transition-duration: 0.2s;
+}
+button#explore {
+  height: 60px;
+  width: 180px;
+  background-color: black;
+  font-size: 25px;
+  border: 3px solid black;
+  border-radius: 3%;
+  color: white;
+  font-family: "Lora", "Times New Roman", Times, serif;
+}
+button:hover#explore {
+  scale: 110%;
+  transition: ease-in-out;
+  transition-duration: 0.2s;
+}
+button#activities {
+  height: 60px;
+  width: 180px;
+  background-color: black;
+  font-size: 22px;
+  border: 3px solid black;
+  border-radius: 3%;
+  color: white;
+  font-family: "Lora", "Times New Roman", Times, serif;
+}
+button:hover#activities {
+  scale: 110%;
+  transition: ease-in-out;
+  transition-duration: 0.2s;
+}
+a#NavBar {
+  color: white;
+  text-decoration: none;
+}
+img#activities {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  border: 2px solid black;
+}
+h1 {
+  color: white;
+  font-size: 120px;
+  margin: 0;
+}
+h2 {
+  color: white;
+  font-size: 90px;
+  margin: 0;
+  text-shadow: rgb(0, 0, 0) 5px 5px 10px;
+}
+section#home {
+  margin: 50px;
+  text-align: center;
+}
+section {
+  width: 1400px;
+  max-width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 24px;
+}
+p#home {
+  font-size: larger;
+  color: white;
+  align-self: center;
+}
+.navBar {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  background-color: black;
+  justify-content: right;
+  place-items: center;
+  display: flex;
+}
+.endbar {
+  width: 100%;
+  height: 35px;
+  position: fixed;
+  bottom: 0;
+  background-color: black;
+  color: white;
+  align-content: center;
+}
+.big-skip {
+  height: 45vh;
+}
+.med-skip {
+  height: 25vh;
+}
+.small-skip {
+  height: 10vh;
+}
+.tiny-skip {
+  height: 5vh;
+}
+#home.text-box {
+  font-size: 24px;
+  text-shadow: rgb(0, 0, 0) 5px 5px 10px, rgb(0, 0, 0) 1px 1px 2px;
+}
+.display {
+  padding: 50px;
+  font-size: 24px;
+  background-color: rgb(255 255 255/90%);
+  color: black;
+}
+#explore .activities {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.activities-preview {
+  height: 250px;
+  width: 90%;
+  background-color: black;
+  color: white;
+  background-size: cover;
+  gap: 5px;
+  font-size: 28px;
+  font-family: "Lora", "Times New Roman", Times, serif;
+  text-shadow: rgb(0, 0, 0) 5px 5px 10px, rgb(0, 0, 0) 1px 1px 2px;
+}
+.activities-preview:hover {
+  scale: 110%;
+  transition: ease-in-out 0.2s;
+}
+.activities-button {
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-size: 24px;
+  font-family: "Lora", "Times New Roman", Times, serif;
+}
+.activity-description {
+  display: flex;
+}
+#activities .text {
+  padding: 15px;
+  font-size: 22px;
+  height: 400px;
+  max-height: 400px;
+  text-align: center;
+}
+.hiking-images {
+  width: 75%;
+}
+.faq {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto auto auto auto;
+  row-gap: 35px;
+}
+.faq-item {
+  align-self: center;
+  justify-self: center;
+}
